@@ -1,0 +1,4 @@
+# Write your MySQL query statement below
+SELECT min(t1.x - t2.x) as shortest
+FROM point as t1,point as t2
+WHERE t1.x - t2.x > 0
